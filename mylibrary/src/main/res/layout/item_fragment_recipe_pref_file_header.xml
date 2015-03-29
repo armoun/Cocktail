@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/height_32dp"
+              android:background="@color/app_base"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_fragment_recipe_pref_file_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="@dimen/textsize_24sp"/>
+</LinearLayout>

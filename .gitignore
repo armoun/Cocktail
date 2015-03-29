@@ -8,6 +8,9 @@
 # Java class files
 *.class
 
+# Android Studio Settings
+.idea
+
 # Generated files
 bin/
 gen/

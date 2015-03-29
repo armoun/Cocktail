@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="@dimen/margin_16dp"
+              android:background="@android:color/white"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/app_base"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/fragment_recipe_pref_original_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:layout_marginLeft="@dimen/margin_16dp"
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:textSize="@dimen/textsize_24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/fragment_recipe_pref_original_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:layout_marginLeft="@dimen/margin_16dp"
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:textSize="@dimen/textsize_24sp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/fragment_recipe_pref_edit_value"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_8dp"
+        android:layout_weight="1"
+        android:gravity="top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_8dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fragment_recipe_pref_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_white"
+            android:text="@string/fragment_recipe_pref_cancel"
+            android:textColor="@android:color/secondary_text_dark"/>
+
+        <Button
+            android:id="@+id/fragment_recipe_pref_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/app_white"
+            android:text="@string/fragment_recipe_pref_save"
+            android:textColor="@android:color/tertiary_text_dark"/>
+    </LinearLayout>
+
+</LinearLayout>
