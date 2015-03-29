@@ -36,7 +36,7 @@ coming soon
 
 
 ### License
-Transporter is released under the MIT license. See LICENSE for details.
+Cocktail is released under the MIT license. See LICENSE for details.
 
 
 
